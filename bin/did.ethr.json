@@ -1,0 +1,35 @@
+{
+    "didDocumentMetadata": {},
+    "didResolutionMetadata": {
+        "contentType": "application/did+ld+json"
+    },
+    "didDocument": {
+        "@context": [
+            "https://www.w3.org/ns/did/v1",
+            "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+        ],
+        "id": "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15",
+        "verificationMethod": [
+            {
+                "id": "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controller",
+                "type": "EcdsaSecp256k1RecoveryMethod2020",
+                "controller": "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15",
+                "blockchainAccountId": "eip155:1:0xEc0f74E4f75d687aEfc7fA1f046E4C3999187bB6"
+            },
+            {
+                "id": "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controllerKey",
+                "type": "EcdsaSecp256k1VerificationKey2019",
+                "controller": "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15",
+                "publicKeyHex": "0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15"
+            }
+        ],
+        "authentication": [
+            "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controller",
+            "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controllerKey"
+        ],
+        "assertionMethod": [
+            "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controller",
+            "did:ethr:0x0203c1104b8c1cd39a283054d0a4f51f7c49723f2d56c90df08f9b4f018b8cea15#controllerKey"
+        ]
+    }
+}
